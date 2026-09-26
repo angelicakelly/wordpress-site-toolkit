@@ -10,6 +10,12 @@ A small WordPress plugin that lets an administrator maintain a plain-text site m
 - Uses `admin_menu` and `admin_init` action hooks, the Settings API, and a shortcode callback.
 - Checks the administrator capability, sanitizes input, and escapes output. WordPress provides the settings form nonce through `settings_fields()`.
 
+## Live Preview
+
+[View the WordPress Site Toolkit demo](https://kellybuilderswfl.com/wordpress-site-toolkit-demo)
+
+This portfolio demo is hosted on the Kelly Builders website with the company's permission. I manage the website and created this page to demonstrate how the plugin works. The plugin itself is an independent portfolio project; it was not originally developed for Kelly Builders.
+
 ## Installation and usage
 
 1. Download this repository as a ZIP from **Code → Download ZIP** on GitHub.
