@@ -28,7 +28,7 @@ function ak_wst_enqueue_styles() {
 		'ak-wst-frontend',
 		plugin_dir_url( __FILE__ ) . 'assets/css/frontend.css',
 		array(),
-		'1.0.0'
+		'1.1.0'
 	);
 }
 add_action( 'wp_enqueue_scripts', 'ak_wst_enqueue_styles' );
