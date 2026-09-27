@@ -73,4 +73,4 @@ function ak_wst_enqueue_styles() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'ak_wst_enqueue_styles' );
-add_shortcode( 'site_toolkit_checklist', 'ak_wst_render_checklist' );
+require_once plugin_dir_path( __FILE__ ) . 'includes/class-shortcode.php';
