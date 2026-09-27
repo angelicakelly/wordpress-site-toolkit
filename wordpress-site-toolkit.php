@@ -74,4 +74,15 @@ function ak_wst_render_checklist() {
 	}
 	return $output . '</ul>';
 }
+
+/** Load frontend styles. */
+function ak_wst_enqueue_styles() {
+	wp_enqueue_style(
+		'ak-wst-frontend',
+		plugin_dir_url( __FILE__ ) . 'assets/css/frontend.css',
+		array(),
+		'1.0.0'
+	);
+}
+add_action( 'wp_enqueue_scripts', 'ak_wst_enqueue_styles' );
 add_shortcode( 'site_toolkit_checklist', 'ak_wst_render_checklist' );
