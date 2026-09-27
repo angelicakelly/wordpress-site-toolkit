@@ -15,7 +15,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 const AK_WST_OPTION = 'ak_wst_checklist';
-
+require_once plugin_dir_path( __FILE__ ) . 'includes/class-settings.php';
+require_once plugin_dir_path( __FILE__ ) . 'includes/class-shortcode.php';
 
 /** Keep the input as plain text with one item per line. */
 function ak_wst_sanitize_checklist( $value ) {
@@ -64,4 +65,4 @@ function ak_wst_enqueue_styles() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'ak_wst_enqueue_styles' );
-require_once plugin_dir_path( __FILE__ ) . 'includes/class-shortcode.php';
+
