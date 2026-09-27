@@ -16,15 +16,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 const AK_WST_OPTION = 'ak_wst_checklist';
 
-/** Register one option, editable by administrators through the Settings API. */
-function ak_wst_register_settings() {
-	register_setting( 'ak_wst_settings', AK_WST_OPTION, array(
-		'type'              => 'string',
-		'sanitize_callback' => 'ak_wst_sanitize_checklist',
-		'default'           => '',
-	) );
-}
-add_action( 'admin_init', 'ak_wst_register_settings' );
 
 /** Keep the input as plain text with one item per line. */
 function ak_wst_sanitize_checklist( $value ) {
