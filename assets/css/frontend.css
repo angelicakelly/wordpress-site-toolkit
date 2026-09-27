@@ -1,1 +1,13 @@
+.site-toolkit-checklist {
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+}
 
+.site-toolkit-checklist li {
+  margin-bottom: 0.75rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #f8f9fa;
+}
