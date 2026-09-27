@@ -49,7 +49,13 @@ My background includes WordPress development and maintenance at [Spiro & Associa
 
 ## Screenshots
 
-Screenshots will be added after running the plugin on a WordPress site: (1) the **Settings → Site Toolkit** page with sample items, and (2) a page rendering the shortcode. No screenshots are included yet.
+### Admin Settings
+
+![WordPress Site Toolkit Admin Settings](./docs/admin-settings.png)
+
+### Frontend Demo
+
+![WordPress Site Toolkit Frontend Demo](./docs/frontend-demo.png)
 
 ## License
 
