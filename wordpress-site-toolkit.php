@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WordPress Site Toolkit
  * Description: Publish a simple, editable website maintenance checklist.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Angelica Kelly
